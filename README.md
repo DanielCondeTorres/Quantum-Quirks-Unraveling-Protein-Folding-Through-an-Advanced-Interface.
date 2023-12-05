@@ -108,14 +108,14 @@ make plots # It allows to obtain the evolution of the energy with the number of 
 ### In the main.py file, in the inputs section we can choose:
   INPUTS:
   
-    * main_chain: string      - amino acid sequence
-    * ws_phase_1: float       - average interaction of an amino acid with solvent in phase 1
-    * ws_phase_2: float       - average interaction of an amino acid with solvent in phase 2
-    * cs_phase_1: float       - model solvent in phase 1
-    * cs_phase_2: float       - model solvent in phase 2
-    * exchange_solvent: float -energy exchange between interfaces
-    * correction_mj: bool     -indicates whether we decide to use the Miyazawa-Jerningan potential upgrade or not.
-    * one_solvent_parameter: bool -These options do not affect the calculation of two phases, is only if we want to add a parameter to modulate the interaction of amino acids according to their hydrophobicity value with the phase.
+    * main_chain: string            # amino acid sequence
+    * ws_phase_1: float             # average interaction of an amino acid with solvent in phase 1
+    * ws_phase_2: float             # average interaction of an amino acid with solvent in phase 2
+    * cs_phase_1: float             # model solvent in phase 1
+    * cs_phase_2: float             # model solvent in phase 2
+    * exchange_solvent: float       # energy exchange between interfaces
+    * correction_mj: bool           # indicates whether we decide to use the Miyazawa-Jerningan potential upgrade or not.
+    * one_solvent_parameter: bool   # These options do not affect the calculation of two phases, is only if we want to add a parameter to modulate the interaction of amino acids according to their hydrophobicity value with the phase.
 
 
 Not interface when: cs_phase_1 == cs_phase_2 and ws_phase_1 == ws_phase_2
