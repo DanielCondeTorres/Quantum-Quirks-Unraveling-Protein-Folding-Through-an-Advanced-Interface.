@@ -197,7 +197,7 @@ Project coordinator: Ándres Gómez, Ángel Piñeiro and Rebeca García-Fandino
 ## FAQs :interrobang:
 
 
-## If I don't have a quantum computer, can I use it?
+### If I don't have a quantum computer, can I use it?
 Yes, it is designed to run on quantum computer emulators.
 
 ### What sequence size should I use on a conventional computer? 
