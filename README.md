@@ -105,8 +105,42 @@ make run # To perform the search for the most stable state of your amino acid se
 make representation # To get a picture of the most stable structure of your system.
 make plots # It allows to obtain the evolution of the energy with the number of iterations.
 ```
+### In the main.py file, in the inputs section we can choose:
+  INPUTS:
+    * main_chain: string      - amino acid sequence
+    * ws_phase_1: float       - average interaction of an amino acid with solvent in phase 1
+    * ws_phase_2: float       - average interaction of an amino acid with solvent in phase 2
+    * cs_phase_1: float       - model solvent in phase 1
+    * cs_phase_2: float       - model solvent in phase 2
+    * exchange_solvent: float -energy exchange between interfaces
+    * correction_mj: bool     -indicates whether we decide to use the Miyazawa-Jerningan potential upgrade or not.
+    * one_solvent_parameter: bool -These options do not affect the calculation of two phases, is only if we want to add a parameter to modulate the interaction of amino acids according to their hydrophobicity value with the phase.
 
-This will execute the program and all the statistic calculations will also be performed. It is **important** to point out that in order to...
+
+Not interface when: cs_phase_1 == cs_phase_2 and ws_phase_1 == ws_phase_2
+The original IBM work can be obtained by setting up:
+* ws_1 = ws_2
+* cs_1 = cs_2
+* exchange_sovent_solvent = 0
+* correction = False
+* one_solvent_paramenter = False
+
+# Quantum simulation parameters
+reps = 1
+maxiter = 200
+Brief summary:
+
+* cs > 0: model hydrophilic solvents (water)
+* cs < 0: model hydrophobic solvents (oil)
+
+* w: describes the average interaction of an amino acid with solvent
+* w > 0: aminoacids repel the solvent
+* w < 0:  aminoacids interact on average attractively with the solvent
+
+* Exchange energy: is the phase 1 - phase 2 interaction
+    * penalty_back: A penalty parameter used to penalize turns along the same axis. This term is used to eliminate sequences where the same axis is chosen twice in a row. In this way we do not allow for a chain to fold back into itself.
+    * penalty_chiral: A penalty parameter used to impose the right chirality.
+    * penalty_1: A penalty parameter used to penalize local overlap between beads within a nearest neighbor contact.
 
 
 
@@ -118,12 +152,10 @@ Additional information about SuPepMem can be found in our [Wiki](https://github.
 
 <!-- DISTRIBUTION OF TASKS -->
 ## Distribution of tasks ✒️ 
-Project coordinator: Ángel Piñeiro, M.Bastos and Rebeca García-Fandino
+Project coordinator: Ándres Gómez, Ángel Piñeiro and Rebeca García-Fandino
 
-- Main program (Python program): Fabián Suarez-Leston
-- Collaborators: G.F Tolufashe, A.Muñoz, U.Veleiro, M.Calvelo
-- Creation of the SuPepMem website: C.Porto
-- GitHub Designer: Daniel Conde Torres and Alejandro Seco
+- Main program (Python program): Daniel Conde-Torres, Mariamo Mussa-Juane, Daniel Faílde, Ángel Piñeiro, Ándres Gómez, Ángel Piñeiro and Rebeca García-Fandino
+- GitHub Designer: Daniel Conde-Torres, Mariamo Mussa-Juane and Daniel Faílde
 
 
 <!-- FAQs -->
