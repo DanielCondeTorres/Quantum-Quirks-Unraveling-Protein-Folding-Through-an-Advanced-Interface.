@@ -107,6 +107,7 @@ make plots # It allows to obtain the evolution of the energy with the number of 
 ```
 ### In the main.py file, in the inputs section we can choose:
   INPUTS:
+  
     * main_chain: string      - amino acid sequence
     * ws_phase_1: float       - average interaction of an amino acid with solvent in phase 1
     * ws_phase_2: float       - average interaction of an amino acid with solvent in phase 2
