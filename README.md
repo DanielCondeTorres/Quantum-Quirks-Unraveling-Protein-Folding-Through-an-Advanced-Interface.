@@ -118,13 +118,21 @@ make plots # It allows to obtain the evolution of the energy with the number of 
     * one_solvent_parameter: bool   # These options do not affect the calculation of two phases, is only if we want to add a parameter to modulate the interaction of amino acids according to their hydrophobicity value with the phase.
 
 
-Not interface when: cs_phase_1 == cs_phase_2 and ws_phase_1 == ws_phase_2
+Not interface when: 
+
+```
+cs_phase_1 == cs_phase_2 and ws_phase_1 == ws_phase_2
+```
+
 The original IBM work can be obtained by setting up:
+
+```
 * ws_1 = ws_2
 * cs_1 = cs_2
 * exchange_sovent_solvent = 0
 * correction = False
 * one_solvent_paramenter = False
+```
 
 # Quantum simulation parameters
 reps = 1
