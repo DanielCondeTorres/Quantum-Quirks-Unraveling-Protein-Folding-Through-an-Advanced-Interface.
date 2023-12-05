@@ -20,15 +20,10 @@ Modification of the IBM public code by adding protein folding in different phras
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 </div>
 
-# 
+# Description of the challenge
 Antimicrobial peptides (AMPs) are critical components of the innate immune system that are present in all living organisms [1]. These peptides have been primarily associated with a defensive role against exogenous infections caused by bacteria, viruses and fungi, and are considered powerful and versatile endogenous antibiotics, capable of resisting bacterial adaptation for millions of years. However, recent research advances have pointed to the link between AMPs and a broader spectrum of diseases, such as cancer and various human inflammatory and autoimmune diseases, including ageing [2, 3]. ageing [2, 3].
 
-
-[SuPepMem](https://supepmem.com/) is an open-access repository containing Molecular Dynamics simulations of different natural and artificial peptides (antimicrobial, anticancer, antiviral, etc) interacting with membrane models for healthy mammal, bacteria, viruses, cancer or senescent cells. 
-
-[Citation: F. Suarez-Leston, M. Calvelo, G. F Tolufashe, A. Muñoz, U. Veleiro, C. Porto, M. Bastos, Á. Piñeiro, R. Garcia-Fandino, SuPepMem: A database of innate immune system peptides and their cell membrane interactions, Comput. Struct. Biotechnol. J. 2022, 20, 874-881](https://www.sciencedirect.com/science/article/pii/S2001037022000320)
-
-In this repository you can find the scripts used to obtain the SuPepMem trajectory analysis.
+In general, the study of peptide and protein folding is an intrinsically very complex problem whose practical solution is beyond the reach of classical algorithms even in very simplified models such as the one that considers amino acids as simple spheres with different hydrophobic-polar character [5, 6]. In this scenario, quantum computers emerge as a promising tool despite the current state of intermediate noise level technology (NISQ). Recent work has attempted to solve this problem for relatively short amino acid sequences [7, 8] in homogeneous media. In relation to our study, the complexity is further increased because the structure and functionality of AMPs are strongly influenced by the inhomogeneous and anisotropic environment in which they exhibit their activity, specifically, the membrane-water interface. This particularity highlights the need to intensify efforts in the development of quantum computing techniques, which may lead to significant discoveries in the study and development of new antimicrobial peptides, thus expanding the frontiers of our scientific understanding and therapeutic potential.
 
 
 <p align="center">
