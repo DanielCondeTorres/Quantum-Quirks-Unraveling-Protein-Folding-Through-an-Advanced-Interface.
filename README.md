@@ -181,7 +181,7 @@ Brief summary:
 
 ## Wiki 📖
 
-Additional information about this modifications can be found in our [Wiki](https://github.com/DanielCondeTorres/SuPepMem/wiki) (...Work in progress...).
+Additional information about this modifications can be found in our [Wiki]([https://github.com/DanielCondeTorres/SuPepMem/wiki](https://github.com/DanielCondeTorres/Quantum-Quirks-Unraveling-Protein-Folding-Through-an-Advanced-Interface./wiki)) **(...Work in progress...)**.
 
 
 <!-- DISTRIBUTION OF TASKS -->
