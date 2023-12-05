@@ -142,7 +142,7 @@ The original IBM work can be obtained by setting up:
 * penalty_back = 10
 * penalty_chiral = 10
 * penalty_1 = 10
-
+```
 
 
 ## In the qiskit_research/protein_folding/interface_bead_interaction/interface_parameters.py file:
