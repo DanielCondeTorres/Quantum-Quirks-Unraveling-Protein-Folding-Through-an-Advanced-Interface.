@@ -95,28 +95,17 @@ pip install module
 
 <!-- Required-files -->
 ## Required files 📋
-- A TPR file with the description of the system.
-- A XTC file with the trajectory of the simulation with no correction.
-- The folder where those files are, i.e. the system folder.
-- The folder for the outcome of the analysis.
+No external file is required.
 
 <!-- Usage -->
 ## Usage ⚙️
 In order to run this program, the following command has to be used:
 ```
-python supepmem_analysis.py
-         -tpr SYSTEM_STRUCTURE.tpr
-         -xtc TRAJECTORY.xtc
-         -f   $PATH/TO/FILES
-         -o   $PATH/TO/OUTCOME
-         -dt  SIMULATION_TIMESTEP
-         -it  INITIAL_TIME_SIMULATION
-         -lt  LAST_TIME_SIMULATION
-         -st  SKIP_TIME_BETWEEN_FRAMES
-         -ait INITIAL_TIME_AVERAGES
-         -alt LAST_TIME_AVERAGES
-         -ast SKIP_TIME_BETWEEN_FRAMES_AVERAGING
+make run # To perform the search for the most stable state of your amino acid sequence
+make representation # To get a picture of the most stable structure of your system.
+make plots # It allows to obtain the evolution of the energy with the number of iterations.
 ```
+
 This will execute the program and all the statistic calculations will also be performed. It is **important** to point out that in order to...
 
 
