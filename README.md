@@ -1,3 +1,4 @@
+  
 # Quantum Quirks Unraveling Protein Folding Through an Advanced Interface.
 Modification of the IBM public code by adding protein folding in different phrases as well as the study of folding at a polar/apolar interface.
 
@@ -24,8 +25,10 @@ Modification of the IBM public code by adding protein folding in different phras
 </div>
 
 # Description of the challenge
+<p align="justify"> 
 Antimicrobial peptides (AMPs) are critical components of the innate immune system that are present in all living organisms. These peptides have been primarily associated with a defensive role against exogenous infections caused by bacteria, viruses and fungi, and are considered powerful and versatile endogenous antibiotics, capable of resisting bacterial adaptation for millions of years. However, recent research advances have pointed to the link between AMPs and a broader spectrum of diseases, such as cancer and various human inflammatory and autoimmune diseases, including ageing.
 In general, the study of peptide and protein folding is an intrinsically very complex problem whose practical solution is beyond the reach of classical algorithms even in very simplified models such as the one that considers amino acids as simple spheres with different hydrophobic-polar character. In this scenario, quantum computers emerge as a promising tool despite the current state of intermediate noise level technology (NISQ). Recent work has attempted to solve this problem for relatively short amino acid sequences  in homogeneous media. In relation to our study, the complexity is further increased because the structure and functionality of AMPs are strongly influenced by the inhomogeneous and anisotropic environment in which they exhibit their activity, specifically, the membrane-water interface. This particularity highlights the need to intensify efforts in the development of quantum computing techniques, which may lead to significant discoveries in the study and development of new antimicrobial peptides, thus expanding the frontiers of our scientific understanding and therapeutic potential.
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -47,7 +50,10 @@ In general, the study of peptide and protein folding is an intrinsically very co
 
 <!-- Introduction --> 
 ## Introduction :movie_camera:
+
+<p align="justify"> 
 In this repository, quantum computational methods have been developed and optimised to efficiently and accurately address the folding of amino acid sequences (peptides) at a polar/apolar interface, emulating a realistic model of the water/membrane interface, which is fundamental to understand the structure and function of Antimicrobial Peptides (AMPs) in specific biological contexts. It also allows the study of folding in both polar and non-polar monophases.
+</p>
 
 <!-- Pre-requirements -->
 ## General Pre-requirements :computer:
@@ -215,4 +221,3 @@ Please make sure to update tests as appropriate.
 
 <!-- License --> 
 ## License :green_book:
-
