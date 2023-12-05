@@ -3,8 +3,9 @@ Modification of the IBM public code by adding protein folding in different phras
 
 
 <p align="center">
-  <img src="https://github.com/DanielCondeTorres/Quantum-Quirks-Unraveling-Protein-Folding-Through-an-Advanced-Interface./assets/117435891/42a73541-fc0c-4b51-8e38-294539bc82ea.png" /> 
+  <img src="[https://github.com/DanielCondeTorres/Quantum-Quirks-Unraveling-Protein-Folding-Through-an-Advanced-Interface./assets/117435891/42a73541-fc0c-4b51-8e38-294539bc82ea](https://github.com/DanielCondeTorres/Quantum-Quirks-Unraveling-Protein-Folding-Through-an-Advanced-Interface./assets/117435891/7f302550-96e4-4a60-b807-9b9c705b4900).png" /> 
 </p>
+
 
 
 
