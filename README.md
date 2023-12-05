@@ -148,8 +148,8 @@ The original IBM work can be obtained by setting up:
 ## In the qiskit_research/protein_folding/interface_bead_interaction/interface_parameters.py file:
 Allows us to modify different parameters related to the creation of the interface.
 
-* displacement_of_the_interface_plane: float #Value for the displacement of the interface plane. 
-* axis: int $in$ # Axis perpendicular to the interface.  Axis to be selected for defining the plane of the interface: The possible values are 0, 1, 2 or 3.
+* displacement_of_the_interface_plane: float  # Value for the displacement of the interface plane. 
+* axis: int $\in {0,1,2,3}$                   # Axis perpendicular to the interface.  Axis to be selected for defining the plane of the interface: The possible values are 0, 1, 2 or 3.
 * cls._instance._weight_interface: abs(float) # Initial value must be positive!
             
 
