@@ -107,6 +107,8 @@ make representation # To get a picture of the most stable structure of your syst
 make plots # It allows to obtain the evolution of the energy with the number of iterations.
 ```
 ### In the main.py file, in the inputs section we can choose:
+
+> [!NOTE]  
   INPUTS:
   
     * main_chain: string            # amino acid sequence
@@ -144,6 +146,7 @@ The original IBM work can be obtained by setting up:
 
 
 ### In the qiskit_research/protein_folding/interface_bead_interaction/interface_parameters.py file:
+> [!IMPORTANT]
 Allows us to modify different parameters related to the creation of the interface.
 
 ``` 
@@ -170,7 +173,7 @@ Therefore, in the first case the importance of the interface will be ``` cls._in
 
 
 ### Quantum simulation parameters
-
+> [!TIP]
 Brief summary:
 
 * cs > 0: model hydrophilic solvents (water)
