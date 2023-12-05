@@ -20,8 +20,8 @@ Modification of the IBM public code by adding protein folding in different phras
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 </div>
 
-# SuPepMem database
-
+# 
+Antimicrobial peptides (AMPs) are critical components of the innate immune system that are present in all living organisms [1]. These peptides have been primarily associated with a defensive role against exogenous infections caused by bacteria, viruses and fungi, and are considered powerful and versatile endogenous antibiotics, capable of resisting bacterial adaptation for millions of years. However, recent research advances have pointed to the link between AMPs and a broader spectrum of diseases, such as cancer and various human inflammatory and autoimmune diseases, including ageing [2, 3]. ageing [2, 3].
 
 
 [SuPepMem](https://supepmem.com/) is an open-access repository containing Molecular Dynamics simulations of different natural and artificial peptides (antimicrobial, anticancer, antiviral, etc) interacting with membrane models for healthy mammal, bacteria, viruses, cancer or senescent cells. 
