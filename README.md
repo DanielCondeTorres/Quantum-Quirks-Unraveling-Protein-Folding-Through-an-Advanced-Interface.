@@ -31,8 +31,6 @@ In general, the study of peptide and protein folding is an intrinsically very co
 </p>
 
 
- 
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -54,35 +52,29 @@ In general, the study of peptide and protein folding is an intrinsically very co
 
 <!-- Introduction --> 
 ## Introduction :movie_camera:
-In SuPepMem the simulations have been performed with the [martini_v2.2](http://cgmartini.nl/) force field, using the [Gromacs 2020](https://www.gromacs.org/) Software, highlighting the following simulation parameters:
-- Simulation length (ns): 5000
-- Electric field (kJ mol-1 nm-1 e-1): 0
-- Temperature (K): 300 (v-rescale)
-- Pressure (Bar): 1 (parrinello-rahman semiisotropic)
--  Time step (fs) : 25 
+In this repository, quantum computational methods have been developed and optimised to efficiently and accurately address the folding of amino acid sequences (peptides) at a polar/apolar interface, emulating a realistic model of the water/membrane interface, which is fundamental to understand the structure and function of Antimicrobial Peptides (AMPs) in specific biological contexts. It also allows the study of folding in both polar and non-polar monophases.
+
 <!-- Pre-requirements -->
 ## General Pre-requirements :computer:
 
 In order to run the program it is necessary to have the following requirements installed:
 
 The program is written in Python language so Python version 3 or higher is required. Also, for python programs to work properly the following libraries are needed:
-- [Os](https://docs.python.org/3/library/os.html)
-- [Re](https://docs.python.org/3/library/re.html)
-- [Sys](https://docs.python.org/3/library/sys.html)
-- [Json](https://docs.python.org/3/library/json.html)
-- [Time](https://docs.python.org/3/library/time.html)
-- [Argparse](https://docs.python.org/3/library/argparse.html)
-- [Subprocess](https://docs.python.org/3/library/subprocess.html)
-- [Pandas](https://pandas.pydata.org/)
-- [MDAnalysis](https://www.mdanalysis.org/) 
-- [mpl_toolkits.axes_grid1](https://matplotlib.org/stable/tutorials/toolkits/axes_grid.html)
-- [Numpy](https://numpy.org)
+- [Qiskit](https://www.ibm.com/quantum/qiskit)
 - [Matplotlib](https://matplotlib.org)
-- [Supepdex](https://github.com)*
+- [Numpy](https://numpy.org)
+- [Re](https://docs.python.org/3/library/re.html)
+- [Os](https://docs.python.org/3/library/os.html)
+- [Mayavi](http://docs.enthought.com/mayavi/mayavi/)
+- [Imageio](https://pypi.org/project/imageio/) 
+- [Sys](https://docs.python.org/3/library/sys.html)
+- [Time](https://docs.python.org/3/library/time.html)
+- [Collections](https://docs.python.org/3/library/collections.html)
+- [Glob](https://docs.python.org/3/library/glob.html)
+- [Fileinput](https://docs.python.org/es/3/library/fileinput.html)
+
 
 To be able to use these libraries, it is recommended to work with anaconda environment.
-
-In case the user wishes to see trajectories, the use of the [VMD](https://www.ks.uiuc.edu/Research/vmd/) program is recommended.
 
 
 If you are working in an anaconda environment and you need to install a specific module:
@@ -99,8 +91,6 @@ conda install pip
 ```
 pip install module
 ```
-
-*Supepdex is an external module (supepdex.py) of the main program SuPepMem.py needed to ...
 
 
 <!-- Required-files -->
