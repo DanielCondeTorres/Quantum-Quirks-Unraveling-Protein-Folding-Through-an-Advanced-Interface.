@@ -182,7 +182,7 @@ Brief summary:
 
 ## Wiki 📖
 
-Additional information about SuPepMem can be found in our [Wiki](https://github.com/DanielCondeTorres/SuPepMem/wiki) (...Work in progress...) as well as on the [SuPepMem](https://supepmem.com/) website itself.
+Additional information about this modifications can be found in our [Wiki](https://github.com/DanielCondeTorres/SuPepMem/wiki) (...Work in progress...).
 
 
 <!-- DISTRIBUTION OF TASKS -->
