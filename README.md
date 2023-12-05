@@ -168,7 +168,7 @@ elif cs_phase_2 > cs_phase_1:
     mj_modified_parameters = 1
 ```
 
-Therefore, in the first case the importance of the interface will be cls._instance._weight_interface *-1 and in the second case cls._instance._weight_interface*1.
+Therefore, in the first case the importance of the interface will be $cls._instance._weight_interface$ *-1 and in the second case $cls._instance._weight_interface$*1.
 
 
 # Quantum simulation parameters
