@@ -150,7 +150,7 @@ Allows us to modify different parameters related to the creation of the interfac
 
 ``` 
 * displacement_of_the_interface_plane: float  # Value for the displacement of the interface plane. 
-* axis: int $\in {0,1,2,3}$                   # Axis perpendicular to the interface.  Axis to be selected for defining the plane of the interface: The possible values are 0, 1, 2 or 3.
+* axis: int                                   # Axis perpendicular to the interface.  Axis to be selected for defining the plane of the interface: The possible values are 0, 1, 2 or 3.
 * cls._instance._weight_interface: abs(float) # Initial value must be positive!
 ```             
 
