@@ -119,6 +119,10 @@ make plots # It allows to obtain the evolution of the energy with the number of 
     * exchange_solvent: float       # energy exchange between interfaces
     * correction_mj: bool           # indicates whether we decide to use the Miyazawa-Jerningan potential upgrade or not.
     * one_solvent_parameter: bool   # These options do not affect the calculation of two phases, is only if we want to add a parameter to modulate the interaction of amino acids according to their hydrophobicity value with the phase.
+    * penalty_back: float           # A penalty parameter used to penalize turns along the same axis. This term is used to eliminate sequences where the same axis is chosen twice in a row. In this way we do not allow for a chain to fold back into itself.
+    * penalty_chiral: float         # A penalty parameter used to impose the right chirality.
+    * penalty_1: float              # A penalty parameter used to penalize local overlap between beads within a nearest neighbor contact.
+    * maxiter: float                # Number of iterations to be performed.
 
 
 Not interface when: 
@@ -135,11 +139,13 @@ The original IBM work can be obtained by setting up:
 * exchange_sovent_solvent = 0
 * correction = False
 * one_solvent_paramenter = False
+* penalty_back = 10
+* penalty_chiral = 10
+* penalty_1 = 10
 ```
 
 # Quantum simulation parameters
-reps = 1
-maxiter = 200
+
 Brief summary:
 
 * cs > 0: model hydrophilic solvents (water)
@@ -149,10 +155,7 @@ Brief summary:
 * w > 0: aminoacids repel the solvent
 * w < 0:  aminoacids interact on average attractively with the solvent
 
-* Exchange energy: is the phase 1 - phase 2 interaction
-    * penalty_back: A penalty parameter used to penalize turns along the same axis. This term is used to eliminate sequences where the same axis is chosen twice in a row. In this way we do not allow for a chain to fold back into itself.
-    * penalty_chiral: A penalty parameter used to impose the right chirality.
-    * penalty_1: A penalty parameter used to penalize local overlap between beads within a nearest neighbor contact.
+
 
 
 
