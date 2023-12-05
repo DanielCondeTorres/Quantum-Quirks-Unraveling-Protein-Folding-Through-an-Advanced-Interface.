@@ -138,7 +138,7 @@ The original IBM work can be obtained by setting up:
 ```
 
 
-## In the qiskit_research/protein_folding/interface_bead_interaction/interface_parameters.py file:
+### In the qiskit_research/protein_folding/interface_bead_interaction/interface_parameters.py file:
 Allows us to modify different parameters related to the creation of the interface.
 
 ``` 
@@ -196,16 +196,12 @@ Project coordinator: Ándres Gómez, Ángel Piñeiro and Rebeca García-Fandino
 <!-- FAQs -->
 ## FAQs :interrobang:
 
-### What is SuPepMem?
 
-SuPepMem is a living project. It is expected to grow with simulations of more peptides in different membrane models and using different atomistic and coarse grained force fields. 
+## If I don't have a quantum computer, can I use it?
+Yes, it is designed to run on quantum computer emulators.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/117435891/199971517-f9f27119-0f85-4f91-8f05-e9b48a32f27c.png" />
-</p>
-
-### Can I use the analysis scripts with other force fields?
-...
+### What sequence size should I use on a conventional computer? 
+In a reasonable time, results can be obtained with sequences of 8 amino acids (104.63396787643 s). However, with a sequence of 10 amino acids you would need 102.3 h!
 
 
 <!-- CONTRIBUTING -->
@@ -221,4 +217,4 @@ Please make sure to update tests as appropriate.
 
 <!-- License --> 
 ## License :green_book:
-Data in SuPepMem is made available under an CCBY 4.0 License. You are entitled to access and use the services and download or extract data. If you need the data from the SuPepMem Database for research, please cite our publications.
+
