@@ -151,18 +151,25 @@ Allows us to modify different parameters related to the creation of the interfac
 ``` 
 * displacement_of_the_interface_plane: float  # Value for the displacement of the interface plane. 
 * axis: int                                   # Axis perpendicular to the interface.  Axis to be selected for defining the plane of the interface: The possible values are 0, 1, 2 or 3.
-* cls._instance._weight_interface: abs(float) # Initial value must be positive!
+* cls._instance._weight_interface: abs(float) # Value for the importance of the interface. Initial value must be positive!
 ```             
 
 Value for the weight to be given to the interface Hamiltonian:
 
-        * If weight_interface > 0, the hydrophobic solvent goes below the plane and the hydrophilic solvent goes on top.
-        * If weight_interface < 0, the hydrophobic solvent  goes on top of the plane and the hydrophilic solvent goes below.
+* If weight_interface > 0, the hydrophobic solvent goes below the plane and the hydrophilic solvent goes on top.
+* If weight_interface < 0, the hydrophobic solvent  goes on top of the plane and the hydrophilic solvent goes below.
 
-        We need to add some term to be consistent with the chosen Cs values.
-        csi > csj means that csi is more hydrophilic than csj
+The sign will be given according to the selected values of phase 1 cs and phase 2 cs: 
 
-    '''
+```
+if cs_phase_1 > cs_phase_2:
+    mj_modified_parameters = -1
+elif cs_phase_2 > cs_phase_1:
+    mj_modified_parameters = 1
+```
+
+Therefore, in the first case the importance of the interface will be cls._instance._weight_interface *-1 and in the second case cls._instance._weight_interface*1.
+
 
 # Quantum simulation parameters
 
