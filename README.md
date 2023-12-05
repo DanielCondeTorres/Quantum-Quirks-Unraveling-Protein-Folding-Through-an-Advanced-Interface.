@@ -29,13 +29,6 @@ Antimicrobial peptides (AMPs) are critical components of the innate immune syste
 In general, the study of peptide and protein folding is an intrinsically very complex problem whose practical solution is beyond the reach of classical algorithms even in very simplified models such as the one that considers amino acids as simple spheres with different hydrophobic-polar character [5, 6]. In this scenario, quantum computers emerge as a promising tool despite the current state of intermediate noise level technology (NISQ). Recent work has attempted to solve this problem for relatively short amino acid sequences [7, 8] in homogeneous media. In relation to our study, the complexity is further increased because the structure and functionality of AMPs are strongly influenced by the inhomogeneous and anisotropic environment in which they exhibit their activity, specifically, the membrane-water interface. This particularity highlights the need to intensify efforts in the development of quantum computing techniques, which may lead to significant discoveries in the study and development of new antimicrobial peptides, thus expanding the frontiers of our scientific understanding and therapeutic potential.
 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/117435891/199940424-2ad7347e-bbcb-4425-bfc6-bb7a3fca7413.gif" alt="animated"  />
-</p>
-
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -168,10 +161,10 @@ elif cs_phase_2 > cs_phase_1:
     mj_modified_parameters = 1
 ```
 
-Therefore, in the first case the importance of the interface will be ``` cls._instance._weight_interface * -1 ``` and in the second case cls._instance._weight_interface * 1.
+Therefore, in the first case the importance of the interface will be ``` cls._instance._weight_interface * -1 ``` and in the second case ``` cls._instance._weight_interface * 1 ```.
 
 
-# Quantum simulation parameters
+### Quantum simulation parameters
 
 Brief summary:
 
